@@ -1,4 +1,6 @@
 BackbonejsTodo::Application.routes.draw do
+  resources :todos
+
   get "hello/world"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
